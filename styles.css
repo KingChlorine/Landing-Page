@@ -1,0 +1,16 @@
+.header {
+    background-color: blue;
+    display: flex;
+    color:aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+    flex: 1;
+}
+
+.header-links {
+    display: flex;
+    font-size: 1.5em;
+    gap: 1.5em;
+    list-style: none;}
