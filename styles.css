@@ -4,8 +4,8 @@
     color:aliceblue;
     align-items: center;
     justify-content: space-between;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
     flex: 1;
 }
 
@@ -14,3 +14,31 @@
     font-size: 1.5em;
     gap: 1.5em;
     list-style: none;}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: blue;
+    color: aliceblue;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+.left-text {
+    width: 400px;
+    
+}
+
+.right-img {
+    width:300px;
+    background-color: beige;
+    height: 300px;
+    display: flex;
+    flex-shrink: 0;
+    color:gray;
+    align-items: center;
+    justify-content: center;
+}
