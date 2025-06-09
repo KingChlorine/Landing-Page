@@ -19,10 +19,21 @@
     font-size: 1.5em;
     gap: 1.5em;
     list-style: none;
+    
     }
 
+a:hover {color: gray;
+         }
+
+a {
+   color: azure;
+   text-decoration: none;}
+
+
+
+
 .banner {
-    display: flex;;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 20em;
@@ -40,7 +51,9 @@ button {background-color: #3883f6;
         width: 100px;
         padding: 5px;
         border-radius: 8px;
-        border-color: azure;}
+        border-color: azure;
+        font-size: 16px;
+        font-weight: bold;}
 
 .left-text {
     width: 400px;
@@ -54,7 +67,6 @@ button {background-color: #3883f6;
 
 .right-img {
     width:300px;
-    background-color: #e5e7eb;;
     height: 300px;
     display: flex;
     flex-shrink: 0;
@@ -63,8 +75,12 @@ button {background-color: #3883f6;
     justify-content: center;
 }
 
-img {width: 200px;
+#pic {width: 200px;
      height: 200px;}
+
+#main-img {width: 400px;
+    margin-right: 100px;
+}     
 
 .main {text-align: center;}
       
