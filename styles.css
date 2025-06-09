@@ -39,7 +39,8 @@ button {background-color: #3883f6;
         color: azure;
         width: 100px;
         padding: 5px;
-        border-radius: 8px;}
+        border-radius: 8px;
+        border-color: azure;}
 
 .left-text {
     width: 400px;
@@ -115,13 +116,28 @@ img {width: 200px;
           margin-left: 20em;
           margin-right: 20em;
           flex: 1;
-          padding-left: 2em;
+          padding-left: 5em;
+          padding-top: 2em;
+          padding-bottom: 2em;
+          color: azure; 
+          margin-top: 80px;
+          margin-bottom: 80px;
           
     
           }
-h1, p {margin:0}
+.close {margin:0;}
 
 #back {
        display: flex;
-       margin: auto;}
+       margin: auto;
+       margin-right: 0;
+       padding-right: 5em;
+      
+       }
+
+.footer {background-color: #1f2937;
+         color: azure;
+        text-align: center;
+        padding: 20px;
+        margin: -10px;}
 
